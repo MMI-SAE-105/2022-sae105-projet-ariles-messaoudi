@@ -1,3 +1,28 @@
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+
 .main-head {
     background: #816464;
+    width: 100%;
+}
+
+a {
+    color: inherit; 
+    text-decoration: inherit;
+}
+  
+body {
+    width: 100vw;
+    background-color: #44AC42;
+    color: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 110%;
 }
