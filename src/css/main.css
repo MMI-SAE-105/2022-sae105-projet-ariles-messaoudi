@@ -25,9 +25,23 @@ body {
     font-size: 15px;
 }
 
+.headder-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.title-homepage{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+}
+
 .article {
     width: 80%;
-    margin: auto;
+    margin-bottom: 50px;
     height: 500px;
 }
 
@@ -56,7 +70,7 @@ body {
 } */
 
 .article-texte * h3 {
-    font-family: 'Roboto';
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
