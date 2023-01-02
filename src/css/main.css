@@ -29,7 +29,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .title-homepage{
@@ -99,4 +99,10 @@ font-size: 15px;
     flex-direction: row;
     display: flex;
     justify-content: space-evenly;
+}
+
+.image-icone{
+    display: flex;
+    flex-direction: row;
+
 }
