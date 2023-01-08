@@ -29,6 +29,18 @@
     top: 10px;
 }
 
+.menu-open .nav-toggle-bar{
+    transform: rotate(135deg);
+    background-color: white;
+}
+
+.menu-open .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after{
+    transform: rotate(90deg);
+    background-color: white;
+    top: 0;
+}
+
 .menu{
     background-color: #44AC42;
     position: fixed;
@@ -46,6 +58,11 @@
 
 .menu-open .menu{
     transform: translate(0);
+}
+
+.menu-open,
+.menu-open body{
+    overflow: hidden;
 }
 
 .menu ul{
