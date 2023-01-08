@@ -1,78 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+    <title>Homepage</title>
 </head>
 <body>
 
-    <header>
-        <a href="index.html">
-        <h1>À quoi ressemblera le monde ?</h1>
+    <header class="main-head">
+        <a href="index.html"><img src="/public/img/icone/trad.svg" alt="anglais"></a>
+        <a href="index-en.html">
+            <div class="headder-text">
+        <h1 style="text-align: center;">À quoi <br />ressemblera <br />le monde ?</h1>
         </a>
+        <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index-en.html">Homepage</a></li>
+                <li><a href="espoir-en.html">Hope</a></li>
+                <li><a href="regret-en.html">Regret</a></li>
+                <li><a href="film-en.html">Movie</a></li>
+                <li><a href="lieu-en.html">Location</a></li>
+                <li><a href="livre-en.html">Book</a></li>
+                <li><a href="musique-en.html">Music</a></li>
+                <li><a href="autres-projets-en.html">Others projects</a></li>
+                <li><a href="a-propos-en.html">About</a></li>
+                <li><a href="glossaire-en.html">Glossary</a></li>
+                <li><a href="contact-en.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+    <div class="content">
+        <div class="intro">
+    <p>Hello, welcome to my site. On this site, you will find 6 articles on the topic « À quoi ressemblera le monde ?»</p>
 
-    <p>Bonjour, bienvenue sur mon site. 
-        Sur ce site, vous retrouverez 6 articles sur le thème « À quoi ressemblera le monde »</p>
+    <p>I chose this theme because the future of the world is uncertain and I want to know what it will look like. </p>
+</div>
+
+    <div class="title-homepage">
         <h2>Articles</h2>
+    </div>
 
-        <a href="espoir.html" ><img src="/public/img/image/accueil/image 1.webp" alt="article 1" />
-        <h3>Espoir : Engagement pour l’écologie</h3>
-        <p>D’après un rapport du GIEC (Groupe d’experts intergouvernemental sur l’évolution du climat), 
-            la température globale de la planète devrait augmenter de 1,5% …</p>
-        </a>
-
-        <a href="regret.html" ><img src="/public/img/image/accueil/image 2.webp" alt="article 2" />
-        <h3>Regret : Addiction aux réseaux sociaux</h3>
-        <p>Les réseaux sociaux sont un lieu très addictif, 
-            on sait que 48% des 18-34 ans ont pour premier geste au réveil d’aller sur…</p>
-        </a>
-
-        <a href="film.html" ><img src="/public/img/image/accueil/image 3.webp" alt="article 3" />
-        <h3>Film : Black Mirror (S1;E3) « Retour sur image »</h3>
-        <p>Dans un futur proche, Liam Foxwell, un jeune avocat, dispose, comme tout le monde, 
-            d’une puce implantée derrière l’oreille qui lui permet de stocker ses souvenirs et…</p>
-        </a>
-
-        <a href="lieu.html" ><img src="/public/img/image/accueil/image 4.webp" alt="article 4" />
-        <h3>Lieu : Centre de donnée Google</h3>
-        <p>Un centre de donnée est un lieu comportant de nombreux ordinateurs et 
-            serveurs qui stockent et traitent de grandes quantités d'informations, ils servent à…</p>
-        </a>
-
-        <a href="livre.html" ><img src="/public/img/image/accueil/image 5.webp" alt="article 5" />
-        <h3>Livre : Facebook m’a tuer</h3>
-        <p>Les réseaux sociaux ne sont pas de que simple site internet, ce sont de véritable mode de vie. 
-            Qu'on le veuille ou non, ces réseaux créent de nouvelles habitudes qui…</p>
-        </a>
-
-        <a href="musique.html" ><img src="/public/img/image/accueil/image 6.webp" alt="article 6" />
-        <h3>Musique : « Iron » Woodkid</h3>
-        <p>Cette musique a été écrite par Woodkid « Yoann Lemoine » et produite par « Mourad Belkeddar », 
-            elle a été enregistrée en 2011 et a été publié le…</p>
-        </a>
-
-            <h2>Autres sections</h2>
-
-
-            <a href="autres-projets.html">
-            <h3>Autres projets</h3>
+        <div class="article">
+            <a href="espoir-en.html" >
+            <div class="article-image">
+            <img src="/public/img/image/accueil/image 1.webp" alt="article espoir"/>
+            </div>
+            <div class="article-texte">
+            <h3>Hope : Commitment to ecology</h3>
+            <p>According to a report by the IPCC (Intergovernmental Panel on Climate Change), 
+                the global temperature of the planet should increase by 1.5% ...</p>
             </a>
+            </div>
+        </div>
 
-            <a href="a-propos.html">
-            <h3>À propos</h3>
+        <div class="article">
+            <a href="regret-en.html">
+            <div class="article-image">
+            <img src="/public/img/image/accueil/image 2.webp" alt="article regret"/>
+            </div>
+            <div class="article-texte">
+            <h3>Regret : Addiction to social networks</h3>
+            <p>Social networks are a very addictive place, 
+                we know that 48% of 18-34 year olds first thing when they wake up is to go on...</p>
+            </a>
+            </div>
+        </div>
+
+        <div class="article">
+            <a href="film-en.html">
+            <div class="article-image">
+            <img src="/public/img/image/accueil/image 3.webp" alt="article film"/>
+            </div>
+            <div class="article-texte">
+            <h3>Movie : Black Mirror (S1;E3) « The entire history of you »</h3>
+            <p>In a not far future, Liam Foxwell, a young lawyer, has, as everybody, 
+                a chip implanted behind the ear that allows him to store his memories and...</p>
+            </a>
+            </div>
+        </div>
+
+        <div class="article">
+            <a href="lieu-en.html">
+            <div class="article-image">
+            <img src="/public/img/image/accueil/image 4.webp" alt="article lieu"/>
+            </div>
+            <div class="article-texte">
+            <h3>Location : Google Data Center</h3>
+            <p>It is a place with many computers and servers 
+                that store and process large amounts of information, they are used to maintain...</p>
+            </a>
+            </div>
+        </div>
+        
+        <div class="article">
+            <a href="livre-en.html">
+            <div class="article-image">
+            <img src="/public/img/image/accueil/image 5.webp" alt="article livre"/>
+            </div>
+            <div class="article-texte">
+            <h3>Book : Facebook m’a tuer</h3>
+            <p>Social networks are not just a website, they are a real way of life. 
+                Whether we like it or not, these networks create new habits that...</p>
+            </a>
+            </div>
+        </div>
+
+        <div class="article">
+            <a href="musique-en.html">
+            <div class="article-image">
+            <img src="/public/img/image/accueil/image 6.webp" alt="article musique"/>
+            </div>
+            <div class="article-texte">
+            <h3>Music : « Iron » Woodkid</h3>
+            <p>This music was written by Woodkid "Yoann Lemoine" and produced by "Mourad Belkeddar", 
+                it was recorded in 2011 and was released on...</p>
+            </a>
+            </div>
+        </div>
+
+        <div class="title-homepage">
+            <h2>Others sections</h2>
+        </div>
+            
+        <div class="headder-text">
+            <a href="autres-projets-en.html">
+            <h3>Others projects</h3>
+            </a>
+            
+            <a href="a-propos-en.html">
+            <h3>About</h3>
              </a>
 
-             <a href="glossaire.html">
-            <h3>Glossaire</h3>
+             <a href="glossaire-en.html">
+            <h3>Glossary</h3>
             </a>
 
-            <a href="contact.html">
+            <a href="contact-en.html">
             <h3>Contact</h3>
             </a>
-
-
+        </div>
+    </div>
 </body>
+<footer class="main-foot">
+    <a href="https://twitter.com/?lang=fr"><img src="public/img/icone/twitter.svg" alt="lien twitter"></a>
+    <a href="https://www.instagram.com/?hl=fr"><img src="public/img/icone/instagram.svg" alt="lien instagram"></a>
+    <a href="https://www.youtube.com/"><img src="public/img/icone/youtube.svg" alt="lien youtube"></a>
+    <a href="mailto:ariles.messaoudi@edu.univ-fcomte.fr"><img src="public/img/icone/mail.svg" alt="lien mail"></a>
+    <h2>Arilès MESSAOUDI B2</h2>
+    <p>This project was carried out as part of an educational exercise in the MMi department of Montbéliard</p>
+</footer>
 </html>
