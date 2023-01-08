@@ -89,7 +89,6 @@ font-size: 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .main-head {
@@ -115,4 +114,8 @@ font-size: 15px;
     display: flex;
     flex-direction: row;
 
+}
+
+.intro{
+    padding-top: 150px;
 }
