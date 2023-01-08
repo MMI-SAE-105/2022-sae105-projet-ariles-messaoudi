@@ -101,6 +101,15 @@ font-size: 15px;
     justify-content: space-evenly;
 }
 
+.main-foot {
+    align-items: center;
+    background: #816464;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .image-icone{
     display: flex;
     flex-direction: row;
