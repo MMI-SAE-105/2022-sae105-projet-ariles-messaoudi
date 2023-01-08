@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .nav-toggle-bar,
@@ -27,3 +28,35 @@
 .nav-toggle-bar::after{
     top: 10px;
 }
+
+.menu{
+    background-color: #44AC42;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100vw);
+    transition: all 1s;
+    z-index: 1;
+}
+
+.menu-open .menu{
+    transform: translate(0);
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.menu li{
+    margin-bottom: 30px;
+}
+

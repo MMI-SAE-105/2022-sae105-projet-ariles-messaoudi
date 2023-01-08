@@ -93,6 +93,7 @@ font-size: 15px;
 }
 
 .main-head {
+    position: fixed;
     align-items: center;
     background: #816464;
     width: 100%;
